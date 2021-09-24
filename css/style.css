@@ -1,0 +1,373 @@
+body {
+  font-family: Rationell, sans-serif;
+  color: #1b1818;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-family: Rationell, sans-serif;
+  font-size: 96px;
+  line-height: 112px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 27px;
+}
+
+p {
+  margin-bottom: 12px;
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  padding-right: 24px;
+  padding-left: 48px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 5px 0 10px 11px rgba(61, 53, 47, 0.05);
+}
+
+.nav_link {
+  padding: 16px 24px;
+  font-family: Rationell, sans-serif;
+  text-decoration: none;
+  color: #222222;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  padding: 160px 0;
+}
+
+.hero_container {
+  position: relative;
+  max-width: 1160px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+.content {
+  max-width: 1160px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content_container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 60px 114px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.hero-paragraph {
+  max-width: 496px;
+  margin-bottom: 64px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.button {
+  width: auto;
+  padding: 20px 40px;
+  background-color: #ca0131;
+  text-decoration: none;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #850020;
+}
+
+.hero-ribbon {
+  position: absolute;
+  left: auto;
+  top: 10%;
+  right: 0%;
+  bottom: 0%;
+  z-index: -1;
+}
+
+.num {
+  position: relative;
+  left: -14%;
+  top: auto;
+  right: auto;
+  bottom: -0.15em;
+  z-index: -1;
+  width: 200px;
+  font-family: 'Anguita sans it', sans-serif;
+  color: #fff;
+  font-size: 240px;
+  line-height: 1px;
+  font-weight: 700;
+  text-shadow: 0 0 6px #acacac;
+}
+
+.features {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 48px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-bottom: 32px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.feature_label {
+  margin-left: 16px;
+  font-family: Rationell, sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 0 #afafaf;
+  }
+
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .content_container {
+    margin-bottom: 100px;
+    padding: 40px 84px 30px;
+  }
+
+  .hero-paragraph {
+    margin-bottom: 48px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .hero-ribbon {
+    left: auto;
+    top: 20%;
+    right: 0%;
+    bottom: 0%;
+    width: 250px;
+  }
+
+  .num {
+    left: -8%;
+    font-size: 160px;
+  }
+
+  .content {
+    max-width: 1160px;
+  }
+
+  .hero_container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 220px;
+  }
+
+  .content_container {
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .hero-paragraph {
+    max-width: 100%;
+    margin-bottom: 48px;
+    color: #1b1818;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  .button {
+    padding: 16px 32px;
+  }
+
+  .hero-ribbon {
+    top: 32%;
+    width: 180px;
+  }
+  
+  .num {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    padding-right: 40px;
+    font-size: 96px;
+    line-height: 120px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .hero_container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  #nav1 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .num {
+    left: -13px;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  #nav2 {
+    display: none !important;
+  }
+}
+
+
+@font-face {
+  font-family: 'Rationell';
+  src: url('../fonts/rationell-bold.otf') format('opentype'), url('../fonts/Rationell-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rationell';
+  src: url('../fonts/Rationell-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rationell';
+  src: url('../fonts/Rationell-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Anguita sans it';
+  src: url('../fonts/Anguita-Sans-Black-It.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Anguita sans';
+  src: url('../fonts/Anguita-Sans-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
